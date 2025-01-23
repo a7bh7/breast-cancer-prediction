@@ -4,7 +4,7 @@ import pickle
 
 # تحميل النموذج والمعلومات
 
-with open('breast_cancer_model.pkl', 'rb') as file:
+with open('models/breast_cancer_model.pkl', 'rb') as file:
     model, scaler, feature_names = pickle.load(file)
 
 # عنوان التطبيق
